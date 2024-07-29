@@ -1,16 +1,16 @@
 # Alura Chalange | Oracle One
 
-# Sobre o projeto
-API para gerenciar tarefas (CRUD).
+## About the project
+Text decoder page.
 
-# Technologies used
+## Technologies 
 - Javascript
 - CSS
 - HTML
 
-#Rules
+##Rules
 - Only works with lowercase letters;
 - Do not use letters with accents or special characters;
 
-#Main feature
+##Main feature
 You can convert a word to the encrypted version and also return an encrypted word to the original version.
