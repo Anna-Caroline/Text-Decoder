@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Decodificador de Texto</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+        <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/responsive.css">
+    </head>
+    
+    <body>
+    
+        <div class="container">
+            <div class="left">
+                <img class="alura-logo" src="assets/img/logo-alura.svg" alt="Alura Logo">
+                <form>
+                    <textarea id="main-text" type="text" placeholder="Type your text"></textarea>
+                    <div>
+                        <div class="alert">
+                            <img src="assets/img/warning.svg">
+                            <span>Only lowercase letters and no accents.</span>
+                        </div>
+                        <div class="buttons">
+                            <button class="bt-encrypt" id="encrypt">Encrypt</button>
+                            <button class="bt-decrypt" id="decrypt">Decrypt</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="right">
+                <div class="no-message">
+                    <img src="assets/img/looking.svg" id="message-not-found" alt="No message found">
+                    <h3 class="title-no-message">No message found</h3>
+                    <p>Type a text that you want to encrypt or decrypt</p>
+                </div>
+                <div class="encrypted-text d-none">
+                    <p></p>
+                    <button class="bt-copy" id="copy" onclick="copyText()">Copy</button>
+                </div>
+            </div>
+        </div>
+    
+        <footer>
+            <a target="_blank" href="https://www.linkedin.com/in/carolnelima7/">
+                <img src="assets/img/linkedin_logo.svg" class="logo-link" alt="linkedin">
+            </a>
+            <a target="_blank" href="https://github.com/Anna-Caroline">
+                <img src="assets/img/github_logo.svg" class="logo-link" alt="github">
+            </a>
+            <p class="copyright">&copy; Developed by Caroline Lima 2024</p>
+        </footer>
+    
+        <script src="js/encrypt-and-decrypt.js"></script>
+        <script src="js/encryptor.js"></script>
+        <script src="js/copy.js"></script>
+        <script src="js/text-area.js"></script>
+    </body>
+    
+    
+    </html>
