@@ -1,4 +1,4 @@
-# Alura Chalange | Oracle One
+# Alura Challenge | Oracle One
 
 ## About the project
 Text decoder page.
